@@ -1,0 +1,138 @@
+html{
+    font-family:'Times New Roman', Times, serif;
+    max-width: 700px;
+
+}
+
+.votw{
+    position: center;
+
+}
+.video{
+    height: 450px;
+    width: 700px;
+    position:relative;
+}
+
+.mahnomen_logo{
+    position: static; top:0; left: 0;
+    max-width: 100%;
+    height:auto;
+}
+
+.navbar-nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    size: fit-content;
+
+}
+.active{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+a#home_button, a#home_button:active, a#home_button:visited
+{
+  text-decoration-color: white;
+  color: white;
+  background-color: #04AA6D;
+
+}
+
+button#home_button_button:hover{
+  background-color: #3e8e41;
+  cursor:pointer;
+}
+
+
+.dropbtn {
+    background-color: #04AA6D;
+    background-size: contain;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    resize:none;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .navbar_head{
+    position: relative;
+    display: inline-block;
+    background-color: #04AA6D;
+  }
+  .dropdown {
+    display: inline;
+    position: relative; /* Ensure relative positioning for the dropdown */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute; /* Change fixed to absolute */
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 100%; /* Position the content below the dropdown button */
+    left: 0; /* Center the content under the dropdown button */
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+  .powerby {
+    text-align: center;
+  }
+  .votw{
+    text-align: center;
+    position: relative;
+  }
+
+  .votw_des{
+    text-align: left;
+    position: relative;
+  }
+  nav{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .navbar{
+    max-width: 100%;
+  }
+  
+
+  a{
+    text-decoration: none;
+  }
+
+
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
